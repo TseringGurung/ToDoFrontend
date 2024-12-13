@@ -24,10 +24,10 @@ function App() {
 
       <p>Please click one of the links to start the backend</p>
         
-          <li><a href="http://localhost:5000/" target="_blank" rel="noopener noreferrer">View All Posts</a></li>
-          <li><a href="http://localhost:5000/save" target="_blank" rel="noopener noreferrer">Create Post</a></li>
-          <li><a href="http://localhost:5000/update" target="_blank" rel="noopener noreferrer">Edit Post</a></li>
-          <li><a href="http://localhost:5000/delete" target="_blank" rel="noopener noreferrer">Delete Post</a></li>
+          <li><a href="https://todobackend-51sn.onrender.com/" target="_blank" rel="noopener noreferrer">View All Posts</a></li>
+          <p>For testing view on postman "https://todobackend-51sn.onrender.com/save"</p>
+          <p>For testing update on postman "https://todobackend-51sn.onrender.com/update" </p>
+          <p>For testing delete on postman "https://todobackend-51sn.onrender.com/delete" </p>
         
 
       <div className="top">
