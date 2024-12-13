@@ -21,6 +21,15 @@ function App() {
     <div className="App">
       <div className="container">
       <h1>To Do List</h1>
+
+      <p>Please click one of the links to start the backend</p>
+        
+          <li><a href="http://localhost:5000/" target="_blank" rel="noopener noreferrer">View All Posts</a></li>
+          <li><a href="http://localhost:5000/save" target="_blank" rel="noopener noreferrer">Create Post</a></li>
+          <li><a href="http://localhost:5000/update" target="_blank" rel="noopener noreferrer">Edit Post</a></li>
+          <li><a href="http://localhost:5000/delete" target="_blank" rel="noopener noreferrer">Delete Post</a></li>
+        
+
       <div className="top">
         <input type ="text" placeholder= "Add To Dos" value={text} onChange={(e)=> setText(e.target.value)}></input>
         <div
